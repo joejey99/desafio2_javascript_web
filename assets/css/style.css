@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(0, 0, 162);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 25px;
+  }
+
+  #ejercicio1,
+  #ejercicio2,
+  #ejercicio3 {
+    margin: 0px;
+    display: grid;
+    gap: 0px;
+  }
+
+  #ejercicio2 img {
+    width: 200px;
+  }
+
+  #ejercicio2 {
+    width: 200px;
+  }
+
+  #ejercicio3 label,
+  #ejercicio2 label {
+    display: none;
+  }
+
+  button:hover {
+    background-color: #003399;
+  }
+
+  input[type='number'] {
+    width: 100%;
+    }
+
+  p {
+    text-align: center;
+    font-weight: bold;
+  }
